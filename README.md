@@ -9,3 +9,9 @@
 6. How is the world ruled and led to war? Diplomats lie to journalists and believe these lies when they see them in print
 7. The big print gives and the small print takes away
 8. Sarcasm is lost in print
+9. Print some money and give it to us for the rain forests
+10. The negative is the equivalent of the composer's score, and the print the performance
+11. It's depressing when you're still around and your albums are out of print - Handle the 0 flag character for non-custom conversion specifiers.
+13. Print is the sharpest and the strongest weapon of our party - r : prints the reversed string
+14. The flood of print has turned reading into a process of gulping rather than savoring - R: prints the rot13'ed string
+15. * - All the above options work well together.
