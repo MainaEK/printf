@@ -42,9 +42,9 @@
 	* You don’t have to handle precision
 	* You don’t have to handle the length modifiers
 7. The big print gives and the small print takes away - Handle the following flag characters for non-custom conversion specifiers:
-	* +
-	* space
-	* #
+	* '+'
+	* 'space'
+	* '#'
 8. Sarcasm is lost in print - Handle the following length modifiers for non-custom conversion specifiers:
 	* l
 	* h
