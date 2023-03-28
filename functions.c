@@ -25,14 +25,14 @@ int print_char(va_list types, char buffer[],
 
 /**
  * print_string - Prints a string
- * @types: List a of arguments
+ * @types: List of arguments
  * @buffer: Buffer array to handle print
  * @flags: Calculates active flags
  * @width: get width.
  * @precision: Precision specification
  * @size: Size specifier
  *
- * Return: Number of chars printed
+ * Return: Number of characters printed
  */
 int print_string(va_list types, char buffer[],
 		int flags, int width, int precision, int size)
@@ -49,7 +49,7 @@ int print_string(va_list types, char buffer[],
 	{
 		str = "(null)";
 		if (precision >= 6)
-			str = "      ";
+			str = " ";
 	}
 
 	while (str[length] != '\0')
@@ -132,6 +132,7 @@ int print_int(va_list types, char buffer[],
 
 	if (n == 0)
 		buffer[i--] = '0';
+
 	buffer[BUFF_SIZE - 1] = '\0';
 	num = (unsigned long int)n;
 
