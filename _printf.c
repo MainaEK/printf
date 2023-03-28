@@ -1,13 +1,10 @@
 #include "main.h"
 
-void
+void print_buffer(char buffer[], int *buff_ind);
 
 /**
  * _printf - produces output according to a format
  * @format: format string containing the characters and the specifiers
- * Description: this function will call the get_print() function that will
- * determine which printing function to call depending on the conversion
- * specifiers contained into fmt
  * Return: Printed characters
  */
 int _printf(const char *format, ...)
@@ -29,7 +26,7 @@ int _printf(const char *format, ...)
 			buffer[buff_ind++] == format[i];
 			if (buff_ind == BUFF_SIZE)
 				print_buffer(buffer, &buff_ind);
-			/* write(1, &format[i], 1);*/
+			/* write(1, &format[i], 1); */
 			printed_chars++;
 		}
 		else
